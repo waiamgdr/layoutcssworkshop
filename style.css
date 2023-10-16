@@ -1,0 +1,455 @@
+.nav{  
+    display: flex;
+        flex-flow: warp row;
+        justify-content: center;
+        justify-items: center;
+        justify-content: center;
+        width:995px;
+        height: 20px;
+
+   } 
+  .nav img{ 
+width:300px ;
+height: 25px;
+ padding-right: 400px;}
+
+  .nav div  {  
+  
+        
+        width:300px ;
+        height: 25px;
+        margin-left: 10px;
+        
+}
+
+    
+    .chead{
+        
+        padding-left:250px ;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-right: 250px;
+        width: 100%;
+        height: 15px;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 1);
+        z-index:13 ;
+        position: sticky;
+        top: 0;
+        left:0;
+        box-shadow: 1px 1px 5px 1px rgb(220, 220, 221);
+    
+    }
+    
+.main{
+   
+    display:flex;
+    flex-flow:  wrap  ;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    
+    width: 995px;
+    height:150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+}
+.tl1{
+   align-self: center;
+    
+}
+
+
+
+.para{
+    
+    width: 995px;
+    height:160px;
+    display: flex;
+    
+    flex-flow:  wrap column ;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.p1 p {
+    
+    width: 470px;
+    height:140px;
+    align-self: center;
+    text-align: justify;
+    line-height: 1.75;
+    font-weight: 400;
+    margin:10px;
+    box-sizing: inherit;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: 16px;
+    
+ }
+    
+    
+
+
+
+.service{
+    
+    width:995px;
+    height: 365px;
+    display: flex; 
+    flex-flow:  row wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.s1{ 
+    width:31%;
+    height: 345px;
+    margin: 10px ;
+    border-radius: 10px;
+    
+  
+
+}
+.s1 div { margin: 30px;}
+
+.svg{ 
+   
+    width:995px;
+    height: 220px;
+    display: flex; 
+    flex-flow:  row wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.svg1{ 
+   
+     width:31%;
+    height: 200px;
+    margin: 10px ;
+    border-radius: 10px;
+    display: flex; 
+    flex-flow:  row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.svg1 img { width:35% ;
+}
+
+.bleu{
+    
+    background-color: #e5faf8;
+  
+    width: 100%;
+    height: 600px;
+    display: flex; 
+    flex-flow:  row wrap;
+    
+    
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.bl{ 
+    width: 995px ;
+    height: 560px;
+    display: flex; 
+    flex-flow:  row wrap;
+    align-items: center;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+   
+    
+
+
+    }
+    .blbox{
+        width: 45%;
+        height:560px; 
+        display: flex;
+        flex-flow:  column wrap;
+        justify-content: flex-end;
+        align-content: center; align-items: center;
+        
+    }
+    
+    .box1{  
+        
+        width:120%;
+        height: 330px;
+        
+        overflow: hidden;
+          
+    }
+
+   
+
+
+
+
+.text2 {  
+    width:100%;
+    height: 180px;
+    
+    
+    align-self: flex-start;
+    
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 10px;
+    
+
+
+
+
+}
+.def { 
+    width:50% ;
+    height: 560px;
+    display: flex; 
+    flex-flow:  column wrap;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    margin:10px;
+}
+.df1{ 
+   
+    width:42% ;
+    
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right:5px ;
+    margin-bottom: 10px;
+
+    display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center; align-items: center;
+
+
+
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    
+}
+.df2{ 
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    
+    width:42% ;
+   
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right:5px ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center; align-items: center;
+
+
+}
+.df3{ 
+    
+    width:42% ;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    margin-top: -40px;
+    margin-left: 5px;
+    margin-right:5px ;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center; align-items: center;
+}
+.df4{ 
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    width:42% ;
+    
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right:5px ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center; align-items: center;
+}
+.ensemble{
+    display: flex;
+    flex-flow:  column wrap;
+    align-items: center;
+    justify-content:center;
+    
+
+}
+.title2  { 
+    
+    width:500px ;
+    height: 200px;
+    display: flex; 
+    flex-flow:  row wrap;
+    align-items: center;
+
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+
+
+    
+}
+
+.matrice{ 
+    width:995px ;
+    height: 1540px;
+    display: flex; 
+    flex-wrap: wrap;
+    /* flex-flow:   wrap; */
+    align-items: center;
+    justify-content: flex-start;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+.carrau {
+    box-shadow: 1px 1px 5px 1px rgb(219, 219, 221);
+   
+    width:310px ;
+    height: 330px;
+    margin: 5px;
+
+    
+    display: flex; 
+    flex-flow:  row wrap;
+    align-items: center;
+    justify-content: center; 
+    align-content: center;
+    
+
+ 
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+ 
+
+}
+.image { 
+    
+    display: flex; 
+    flex-flow:  row wrap;
+   justify-content: center;
+   width: 100%;
+    height: 80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+   
+
+    
+}
+.booton{
+    width: 100%;
+    height:20% ;
+    display: flex; 
+    flex-flow:  row wrap;
+    align-content: center;
+    align-items: center;
+
+}
+#but{background-color: #3d83df;
+    color: #fff;
+     width:100px; 
+height:30px ;margin-left: 90px;
+border-color: #3d83df;
+border-radius: 5px;}
+
+
+    
+
+   
+    
+
+.booton h2 {
+    margin-left: 20px;
+}
+
+
+.title3 { 
+   
+    width:520px ;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    
+}
+
+
+ #bt{
+   border-color: #3d83df;
+height:40px ;
+background-color:#3d83df;
+color: #fff;
+border-radius: 5px;
+
+
+
+}
+
+.line {width: 100%;
+opacity: 0.2;}
+.footer{
+    
+    
+    width: 995px;
+    height: 60px;
+}
+
